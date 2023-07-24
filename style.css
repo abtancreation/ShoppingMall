@@ -1,0 +1,38 @@
+
+#h1{
+    font-family: 'Barnabus', Times, serif;
+    font-size: 15px;
+    text-align: center;
+}
+ul {
+    text-align: right;
+}
+h1 {
+    background-color: #d37a07be;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+}
+.menu-button{ 
+    background-color: #33047e; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.animate{
+    animation-name: color-change;
+    animation-duration: 5s;
+}
+@keyframes color-change {
+    from{color:#200d8a;}
+    to {color:#000000;}
+}
+ul{
+    text-align: left;
+}
+.animate1 {
+    animation-name: none;
+    animation: forwards;}
+    
+
+  
